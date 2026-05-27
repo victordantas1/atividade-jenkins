@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     triggers {
-            cron('* * * * *')
-        }
+        cron('* * * * *')
+    }
 
     environment {
         PATH = "${env.PATH}:/usr/local/go/bin"
