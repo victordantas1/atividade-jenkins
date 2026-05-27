@@ -1,5 +1,5 @@
 pipeline {
-    agent any'
+    agent any
 
     environment {
         PATH = "${env.PATH}:/usr/local/go/bin"
