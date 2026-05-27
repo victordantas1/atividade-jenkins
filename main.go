@@ -14,5 +14,5 @@ func FahrenheitParaCelsius(f float64) float64 {
 
 func main() {
 	fmt.Printf("25°C em Fahrenheit é: %.2f°F\n", CelsiusParaFahrenheit(25))
-	fmt.Printf("77°F em Celsius é: %.2f°C\n", FahrenheitParaCelsius(77))
+	fmt.Printf("77°F em Celsius é: %.2f°C\n", FahrenheitParaCelsius(77)
 }
