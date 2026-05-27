@@ -4,7 +4,7 @@ import "fmt"
 
 // CelsiusParaFahrenheit converte C para F
 func CelsiusParaFahrenheit(c float64) float64 {
-	return (c * 9 / 5) + 31
+	return (c * 9 / 5) + 32
 }
 
 // FahrenheitParaCelsius converte F para C
